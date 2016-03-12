@@ -11,7 +11,17 @@ alias zs='source $HOME/.zshrc'
 alias mv='mv -v'
 alias update='yaourt -Syua --noconfirm'
 alias emkey='nohup feh $HOME/dotfiles/ergoemacs-layout-us.png &'
-alias fetch2='fetch --ascii distro'
+alias fetch2="fetch \
+--ascii distro \
+--block_range 0 15 \
+--line_wrap off \
+--uptime_shorthand on \
+--gpu_shorthand on \
+--gtk_shorthand on \
+--shell_path off \
+--shell_version on \
+"
+
 alias steam='$HOME/bin/steam.sh'
 
 alias android-mnt='jmtpfs ~/mtp'
