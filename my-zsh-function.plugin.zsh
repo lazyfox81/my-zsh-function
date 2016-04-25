@@ -20,6 +20,16 @@ alias fetch2="fetch \
 --shell_path off \
 --shell_version on \
 "
+alias fetch3="fetch \
+--song_shorthand on \
+--block_range 0 15 \
+--line_wrap off \
+--uptime_shorthand on \
+--gpu_shorthand on \
+--gtk_shorthand on \
+--shell_path off \
+--shell_version on \
+"
 
 alias steam='$HOME/bin/steam.sh'
 
