@@ -1,8 +1,7 @@
-#--------------------------------------------------------------
-# My Zsh aliases and functions
+#          my-zsh-function.plugin.zsh
 #-------------------------------------------------------------
-
-#aliases
+#                      Aliases
+#-------------------------------------------------------------
 alias св='cd'
 alias rm='rm -rfv'
 alias cp='cp -rv'
@@ -51,6 +50,12 @@ calc() printf '%.6g\n' $(($*))
 # noglob prevents processing of special characters
 alias calc='noglob calc'
 
+alias transwru='trans -hl "ru" -tl "en" -verbose'
+alias transwen='trans -hl "en" -tl "ru" -verbose'
+
+#-------------------------------------------------------------
+#                        Functions
+#-------------------------------------------------------------
 # cat with line numbers
 ncat() {
 if [ -z $1 ]
