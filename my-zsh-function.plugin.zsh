@@ -9,7 +9,7 @@ alias zs='source $HOME/.zshrc'
 alias mv='mv -v'
 alias update='yaourt -Syua --noconfirm'
 alias emkey='nohup feh $HOME/dotfiles/ergoemacs-layout-us.png &'
-alias fetch2="fetch \
+alias fetch2="neofetch \
 --ascii distro \
 --block_range 0 15 \
 --line_wrap off \
@@ -19,7 +19,7 @@ alias fetch2="fetch \
 --shell_path off \
 --shell_version on \
 "
-alias fetch3="fetch \
+alias fetch3="neofetch \
 --song_shorthand on \
 --block_range 0 15 \
 --line_wrap off \
