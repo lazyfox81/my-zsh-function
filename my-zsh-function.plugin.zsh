@@ -9,6 +9,7 @@ alias zs='source $HOME/.zshrc'
 alias mv='mv -v'
 alias update='yaourt -Syua --noconfirm'
 alias emkey='nohup feh $HOME/dotfiles/ergoemacs-layout-us.png &'
+alias weather='curl wttr.in'
 alias fetch2="neofetch \
 --ascii distro \
 --block_range 0 15 \
