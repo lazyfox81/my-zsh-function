@@ -135,3 +135,6 @@ pkl() {
     fi
 }
 alias -s {bz2,gz,rar,tar,tbz2,tgz,zip,7z}=pkl
+
+# Reading markdown files.
+mdl() {pandoc -t plain $1 | less}
